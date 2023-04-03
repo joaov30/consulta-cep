@@ -10,7 +10,7 @@ function App() {
   const [cep, setCep] = useState({});
 
   async function handleSearch() {
-    //01001000/json/
+   
 
     if (input === "") {
       alert("Coloque o CEP!");
